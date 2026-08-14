@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Chirra Ramya</title>
+  <meta name="description" content="Projects by Chirra Ramya, including an automated attendance system using face recognition." />
+  <link rel="canonical" href="https://example.com/projects.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Projects — Chirra Ramya" />
+  <meta property="og:description" content="Automated attendance system using face recognition." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="Chirra Ramya, home">
+        <span aria-hidden="true">&lt;</span>Chirra<span class="dot" aria-hidden="true">.</span>Ramya<span aria-hidden="true">/&gt;</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap">
+
+      <section aria-labelledby="projects-heading" style="padding-top: var(--space-4);">
+        <p class="eyebrow">Selected work</p>
+        <h1 id="projects-heading">Projects</h1>
+        <p class="lede">A machine learning project that automates classroom attendance.</p>
+      </section>
+
+      <svg class="trace" viewBox="0 0 800 40" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path d="M0 20 H150 L180 5 H650 L680 20 H800" />
+        <circle cx="150" cy="20" r="4" />
+        <circle cx="680" cy="20" r="4" />
+      </svg>
+
+      <section aria-labelledby="attendance-heading" id="attendance-system">
+        <article class="card">
+          <div class="section-head">
+            <span class="index" aria-hidden="true">01</span>
+            <h2 id="attendance-heading">Automated Attendance System Using Face Recognition</h2>
+          </div>
+          <!--
+            EDIT ME: this paragraph is a starting draft — replace it with
+            your own description of exactly how you built it (dataset,
+            algorithm, hardware/software used, and what problem it solves).
+          -->
+          <p>
+            A system that automatically marks student attendance by
+            recognizing faces through a camera, instead of a manual roll
+            call or sign-in sheet. It captures a face, matches it against
+            a stored set of registered student faces, and logs attendance
+            when a match is found — reducing time lost to manual
+            attendance and the chance of proxy attendance.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Python</span>
+            <span class="tag">OpenCV</span>
+            <span class="tag">Face Recognition</span>
+            <span class="tag">Machine Learning</span>
+          </div>
+          <!-- EDIT ME: add your GitHub repo link here once you have one -->
+          <p style="margin-top: var(--space-2);">
+            <a href="https://github.com/your-username/attendance-face-recognition">View the repository on GitHub</a>
+          </p>
+        </article>
+      </section>
+
+      <!--
+        EDIT ME: copy the <section> block above for any additional
+        projects, giving each a unique id (e.g. id="project-2") and
+        matching heading id.
+      -->
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; 2026 Chirra Ramya. Built with semantic HTML5.</p>
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="nav.js"></script>
+</body>
+</html>
