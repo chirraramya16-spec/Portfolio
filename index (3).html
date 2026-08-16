@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Chirra Ramya — CSE Student &amp; Developer</title>
+  <meta name="description" content="Portfolio of Chirra Ramya, a Computer Science Engineering student at Kodad Institution of Technology and Science, building projects like an automated attendance system using face recognition." />
+  <meta name="keywords" content="Chirra Ramya, CSE, computer science, face recognition, portfolio" />
+  <meta name="author" content="Chirra Ramya" />
+  <link rel="canonical" href="https://example.com/index.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Chirra Ramya — CSE Student & Developer" />
+  <meta property="og:description" content="CSE student building an automated attendance system using face recognition." />
+  <meta property="og:url" content="https://example.com/index.html" />
+  <meta name="twitter:card" content="summary" />
+
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    // Set the theme before first paint so there's no flash of the wrong theme.
+    (function () {
+      try {
+        var saved = localStorage.getItem("theme");
+        var theme = saved || (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+        document.documentElement.setAttribute("data-theme", theme);
+      } catch (e) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    })();
+  </script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="Chirra Ramya, home">
+        <span aria-hidden="true">&lt;</span>Chirra<span class="dot" aria-hidden="true">.</span>Ramya<span aria-hidden="true">/&gt;</span>
+      </a>
+
+      <div class="header-controls">
+        <button class="theme-toggle" type="button">
+          <span class="icon" aria-hidden="true">☾</span>
+          <span class="label">Dark</span>
+        </button>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      </div>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap">
+
+      <section class="hero" aria-labelledby="hero-heading">
+        <p class="eyebrow">Computer Science Engineering student</p>
+        <h1 id="hero-heading">I build systems that recognize and respond to the real world.</h1>
+        <p class="lede">
+          I'm Chirra Ramya, a Computer Science Engineering student at Kodad
+          Institution of Technology and Science. I'm interested in applying
+          machine learning to solve everyday problems — like replacing
+          manual attendance registers with a face-recognition system.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="projects.html">View my projects</a>
+          <a class="btn btn-ghost" href="contact.html">Get in touch</a>
+        </div>
+      </section>
+
+      <svg class="trace" viewBox="0 0 800 40" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path d="M0 20 H250 L280 5 H520 L550 20 H800" />
+        <circle cx="250" cy="20" r="4" />
+        <circle cx="550" cy="20" r="4" />
+      </svg>
+
+      <section aria-labelledby="skills-heading">
+        <div class="section-head">
+          <span class="index" aria-hidden="true">01</span>
+          <h2 id="skills-heading">What I work with</h2>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>Computer science fundamentals</h3>
+            <p>Core CSE coursework — data structures, algorithms, and problem solving.</p>
+            <div class="tag-row">
+              <span class="tag">C</span>
+              <span class="tag">Java</span>
+              <span class="tag">Python</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Machine learning &amp; vision</h3>
+            <p>Applying face recognition and computer vision to real-world automation problems.</p>
+            <div class="tag-row">
+              <span class="tag">OpenCV</span>
+              <span class="tag">Machine Learning</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Project building</h3>
+            <p>Turning coursework ideas into working, demoable systems.</p>
+            <div class="tag-row">
+              <span class="tag">Python</span>
+              <span class="tag">Git</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="featured-heading">
+        <div class="section-head">
+          <span class="index" aria-hidden="true">02</span>
+          <h2 id="featured-heading">Featured work</h2>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>Automated Attendance System Using Face Recognition</h3>
+            <p>A system that marks attendance automatically by recognizing faces, replacing manual roll calls.</p>
+            <p><a href="projects.html#attendance-system">Read more about this project →</a></p>
+          </article>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; 2026 Chirra Ramya. Built with semantic HTML5.</p>
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="theme.js"></script>
+  <script src="nav.js"></script>
+</body>
+</html>
